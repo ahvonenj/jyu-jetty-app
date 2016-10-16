@@ -16,7 +16,7 @@ public class Main
         
         
         //Create a new Server, add the handler to it and start
-        Server server = new Server(8080);
+        Server server = new Server(80);
         server.setHandler(handler);
         server.start();
         

@@ -23,6 +23,8 @@ public class RandomServlet extends HttpServlet
             out.print(result);
             out.flush();
             out.close();
+            
+            return;
         }
         
         int min = Integer.parseInt(req.getParameter("min"));        

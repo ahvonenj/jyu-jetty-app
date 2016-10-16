@@ -37,6 +37,8 @@ public class Temperature extends HttpServlet
             out.print(result);
             out.flush();
             out.close();
+            
+            return;
         }
         
         String temperature = req.getParameter("temperature");        
