@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar Task2_jetty_fixed/target/dependency/jetty-runner.jar --port $PORT Task2_jetty_fixed/target/Task2_jetty_fixed-1.0-SNAPSHOT.jar
+web: java $JAVA_OPTS -jar target/dependency/jetty-runner.jar --port $PORT target/*.war
